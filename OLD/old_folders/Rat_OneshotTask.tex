@@ -1,0 +1,53 @@
+\documentclass{article}
+\addtolength{\oddsidemargin}{-.875in}
+\addtolength{\evensidemargin}{-.875in}
+\addtolength{\textwidth}{1.75in}
+
+\addtolength{\topmargin}{-.875in}
+\addtolength{\textheight}{1.75in}
+	
+\usepackage{titlesec}
+
+\title{Social EE}
+\author{Siyu Wang}
+\date{ }
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{authblk}
+\usepackage{amsmath}
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Optimal Strategy}
+V -  value you see\\
+H - horizon\\
+$\theta(H)$\\
+
+$\theta(H = 0) =  50$\\
+$EV(H = 0, x) = x, if x > 50$\\
+$EV(H = 0, x) = 50, if x < 50$\\
+
+
+$\theta(H = 1) = ? $\\
+
+exploit: V + EV(H-1, V)\\
+explore: $\sum_{v = 1}^{100}{\frac{1}{100} * (v + EV(H-1, max(v, V)))}$\\
+
+
+
+
+ $V + EV(H-1, V) = \sum_{v = 1}^{100}{\frac{1}{100} * (v + EV(H-1, max(v, V)))}$, solve for V \\
+ 
+$ EV(H = 1, x) = exploit, if x > \theta(H = 1)$\\
+$ EV(H = 1, x) = explore, if x < \theta(H = 1)$\\
+
+ 
+\end{document}
+

@@ -1,0 +1,174 @@
+\begin{thebibliography}{21}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Banks et~al.(1997)Banks, Olson, and Porter]{Banks1997}
+Jeffrey Banks, Mark Olson, and David Porter.
+\newblock {An experimental analysis of the bandit problem}.
+\newblock \emph{Economic Theory}, 1997.
+\newblock ISSN 09382259.
+\newblock \doi{10.1007/s001990050146}.
+
+\bibitem[Beeler et~al.(2010)Beeler, Daw, Frazier, and Zhuang]{Beeler2010}
+Jeff~A. Beeler, Nathaniel Daw, Cristianne~R.M. Frazier, and Xiaoxi Zhuang.
+\newblock {Tonic dopamine modulates exploitation of reward learning}.
+\newblock \emph{Frontiers in Behavioral Neuroscience}, 4\penalty0
+  (NOV):\penalty0 1--14, 2010.
+\newblock ISSN 16625153.
+\newblock \doi{10.3389/fnbeh.2010.00170}.
+
+\bibitem[Bellman(1954)]{Bellman1954}
+Richard Bellman.
+\newblock {The Theory of Dynamic Programming}.
+\newblock \emph{Bulletin of the American Mathematical Society}, 1954.
+\newblock ISSN 02730979.
+\newblock \doi{10.1090/S0002-9904-1954-09848-8}.
+
+\bibitem[Brainard and Doupe(2002)]{songbird1}
+M.~S. Brainard and A.~J. Doupe.
+\newblock {{W}hat songbirds teach us about learning}.
+\newblock \emph{Nature}, 417\penalty0 (6886):\penalty0 351--358, May 2002.
+
+\bibitem[Cinotti et~al.(2019)Cinotti, Fresno, Aklil, Coutureau, Girard,
+  Marchand, and Khamassi]{Cinotti2019}
+Fran{\c{c}}ois Cinotti, Virginie Fresno, Nassim Aklil, Etienne Coutureau,
+  Beno{\^{i}}t Girard, Alain~R. Marchand, and Mehdi Khamassi.
+\newblock {Dopamine blockade impairs the exploration-exploitation trade-off in
+  rats}.
+\newblock \emph{Scientific Reports}, 9\penalty0 (1):\penalty0 1--14, 2019.
+\newblock ISSN 20452322.
+\newblock \doi{10.1038/s41598-019-43245-z}.
+
+\bibitem[Frank et~al.(2009)Frank, Doll, Oas-Terpstra, and Moreno]{Frank2009}
+Michael~J. Frank, Bradley~B. Doll, Jen Oas-Terpstra, and Francisco Moreno.
+\newblock {Prefrontal and striatal dopaminergic genes predict individual
+  differences in exploration and exploitation}.
+\newblock \emph{Nature Neuroscience}, 2009.
+\newblock ISSN 10976256.
+\newblock \doi{10.1038/nn.2342}.
+
+\bibitem[Gershman(2018)]{Gershman2018}
+Samuel~J. Gershman.
+\newblock {Deconstructing the human algorithms for exploration}.
+\newblock \emph{Cognition}, 173:\penalty0 34--42, apr 2018.
+\newblock ISSN 00100277.
+\newblock \doi{10.1016/j.cognition.2017.12.014}.
+
+\bibitem[Gershman(2019)]{Gershman2019}
+Samuel~J. Gershman.
+\newblock {Uncertainty and exploration}.
+\newblock \emph{Decision}, 2019.
+\newblock ISSN 23259973.
+\newblock \doi{10.1037/dec0000101}.
+
+\bibitem[Kao et~al.(2005)Kao, Doupe, and Brainard]{songbird2}
+M.~H. Kao, A.~J. Doupe, and M.~S. Brainard.
+\newblock {{C}ontributions of an avian basal ganglia-forebrain circuit to
+  real-time modulation of song}.
+\newblock \emph{Nature}, 433\penalty0 (7026):\penalty0 638--643, Feb 2005.
+
+\bibitem[Krebs et~al.(1978)Krebs, Kacelnik, and Taylor]{Krebs1978}
+John~R. Krebs, Alejandro Kacelnik, and Peter Taylor.
+\newblock {Test of optimal sampling by foraging great tits}.
+\newblock \emph{Nature}, 275\penalty0 (5675):\penalty0 27--31, 1978.
+\newblock ISSN 00280836.
+\newblock \doi{10.1038/275027a0}.
+
+\bibitem[Laskowski et~al.(2016)Laskowski, Williams, Martens, Gruber, Fisher,
+  and Euston]{Laskowski2016}
+C.~S. Laskowski, R.~J. Williams, K.~M. Martens, A.~J. Gruber, K.~G. Fisher, and
+  D.~R. Euston.
+\newblock {The role of the medial prefrontal cortex in updating reward value
+  and avoiding perseveration}.
+\newblock \emph{Behavioural Brain Research}, 306:\penalty0 52--63, 2016.
+\newblock ISSN 18727549.
+\newblock \doi{10.1016/j.bbr.2016.03.007}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.bbr.2016.03.007}.
+
+\bibitem[Lee et~al.(2011)Lee, Zhang, Munro, and Steyvers]{Lee2011}
+Michael~D. Lee, Shunan Zhang, Miles Munro, and Mark Steyvers.
+\newblock {Psychological models of human and optimal performance in bandit
+  problems}.
+\newblock \emph{Cognitive Systems Research}, 2011.
+\newblock ISSN 13890417.
+\newblock \doi{10.1016/j.cogsys.2010.07.007}.
+
+\bibitem[Mehlhorn et~al.(2015)Mehlhorn, Newell, Todd, Lee, Morgan, Braithwaite,
+  Hausmann, Fiedler, and Gonzalez]{Mehlhorn2015}
+Katja Mehlhorn, Ben~R. Newell, Peter~M. Todd, Michael~D. Lee, Kate Morgan,
+  Victoria~A. Braithwaite, Daniel Hausmann, Klaus Fiedler, and Cleotilde
+  Gonzalez.
+\newblock {Unpacking the exploration-exploitation tradeoff: A synthesis of
+  human and animal literatures}.
+\newblock \emph{Decision}, 2015.
+\newblock ISSN 23259973.
+\newblock \doi{10.1037/dec0000033}.
+
+\bibitem[Meyer and Shi(1995)]{Meyer1995}
+Robert~J. Meyer and Yong Shi.
+\newblock {Sequential Choice Under Ambiguity: Intuitive Solutions to the
+  Armed-Bandit Problem}.
+\newblock \emph{Management Science}, 1995.
+\newblock ISSN 0025-1909.
+\newblock \doi{10.1287/mnsc.41.5.817}.
+
+\bibitem[Parker et~al.(2016)Parker, Cameron, Taliaferro, Lee, Choi, Davidson,
+  Daw, and Witten]{Parker2016}
+Nathan~F. Parker, Courtney~M. Cameron, Joshua~P. Taliaferro, Junuk Lee,
+  Jung~Yoon Choi, Thomas~J. Davidson, Nathaniel~D. Daw, and Ilana~B. Witten.
+\newblock {Reward and choice encoding in terminals of midbrain dopamine neurons
+  depends on striatal target}.
+\newblock \emph{Nature Neuroscience}, 19\penalty0 (6):\penalty0 845--854, 2016.
+\newblock ISSN 15461726.
+\newblock \doi{10.1038/nn.4287}.
+
+\bibitem[Payzan-LeNestour and Bossaerts(2012)]{Payzan-Lenestour2012}
+{\'{E}}lise Payzan-LeNestour and Peter Bossaerts.
+\newblock {Do not bet on the unknown versus try to find out more: Estimation
+  uncertainty and "unexpected uncertainty" both modulate exploration}.
+\newblock \emph{Frontiers in Neuroscience}, 2012.
+\newblock ISSN 16624548.
+\newblock \doi{10.3389/fnins.2012.00150}.
+
+\bibitem[Steyvers et~al.(2009)Steyvers, Lee, and Wagenmakers]{Steyvers2009}
+Mark Steyvers, Michael~D. Lee, and Eric~Jan Wagenmakers.
+\newblock {A Bayesian analysis of human decision-making on bandit problems}.
+\newblock \emph{Journal of Mathematical Psychology}, 2009.
+\newblock ISSN 00222496.
+\newblock \doi{10.1016/j.jmp.2008.11.002}.
+
+\bibitem[Verharen et~al.(2020)Verharen, den Ouden, Adan, and
+  Vanderschuren]{Verharen2020}
+Jeroen~P.H. Verharen, Hanneke~E.M. den Ouden, Roger~A.H. Adan, and Louk~J.M.J.
+  Vanderschuren.
+\newblock {Modulation of value-based decision making behavior by subregions of
+  the rat prefrontal cortex}.
+\newblock \emph{Psychopharmacology}, 237\penalty0 (5):\penalty0 1267--1280,
+  2020.
+\newblock ISSN 14322072.
+\newblock \doi{10.1007/s00213-020-05454-7}.
+
+\bibitem[Wilson et~al.(2014)Wilson, Geana, White, Ludvig, and
+  Cohen]{Wilson2014}
+R.~C. Wilson, A.~Geana, J.~M. White, E.~A. Ludvig, and J.~D. Cohen.
+\newblock {{H}umans use directed and random exploration to solve the
+  explore-exploit dilemma}.
+\newblock \emph{J Exp Psychol Gen}, 143\penalty0 (6):\penalty0 2074--2081, Dec
+  2014.
+
+\bibitem[Wilson et~al.(2020)Wilson, Bonawitz, and Costa]{Wilson2020}
+Robert~C Wilson, Elizabeth Bonawitz, and Vincent~D Costa.
+\newblock {Balancing exploration and exploitation with information and
+  randomization.}
+\newblock pages 1--18, 2020.
+
+\bibitem[Zhang and Yu(2013)]{Zhang2013}
+Shunan Zhang and Angela~J. Yu.
+\newblock {Forgetful Bayes and myopic planning: Human learning and
+  decision-making in a bandit setting}.
+\newblock In \emph{Advances in Neural Information Processing Systems}, 2013.
+
+\end{thebibliography}

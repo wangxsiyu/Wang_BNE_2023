@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2019)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: RatExploration.aux
+Case mismatch error between cite keys wilson2014 and Wilson2014
+---line 6 of file RatExploration.aux
+ : \citation{wilson2014
+ :                     }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys wilson2014 and Wilson2014
+---line 10 of file RatExploration.aux
+ : \citation{wilson2014
+ :                     }
+I'm skipping whatever remains of this command
+The style file: plainnat.bst
+Database file #1: RatExploration_refs.bib
+Repeated entry---line 371 of file RatExploration_refs.bib
+ : @article{Wilson2014
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 402 of file RatExploration_refs.bib
+ : @article{Wilson2020
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Wilson2020
+You've used 21 entries,
+            2773 wiz_defined-function locations,
+            768 strings with 9465 characters,
+and the built_in function-call counts, 10809 in all, are:
+= -- 979
+> -- 750
+< -- 8
++ -- 252
+- -- 231
+* -- 952
+:= -- 1744
+add.period$ -- 96
+call.type$ -- 21
+change.case$ -- 140
+chr.to.int$ -- 21
+cite$ -- 43
+duplicate$ -- 433
+empty$ -- 755
+format.name$ -- 260
+if$ -- 2204
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 21
+newline$ -- 146
+num.names$ -- 84
+pop$ -- 236
+preamble$ -- 1
+purify$ -- 119
+quote$ -- 0
+skip$ -- 340
+stack$ -- 0
+substring$ -- 287
+swap$ -- 30
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 231
+warning$ -- 1
+while$ -- 86
+width$ -- 0
+write$ -- 335
+(There were 4 error messages)

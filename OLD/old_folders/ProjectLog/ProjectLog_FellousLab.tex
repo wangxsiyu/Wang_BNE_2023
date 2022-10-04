@@ -1,0 +1,42 @@
+\documentclass{article}
+\addtolength{\oddsidemargin}{-1.2in}
+\addtolength{\evensidemargin}{-1.2in}
+\addtolength{\topmargin}{-.875in}
+\addtolength{\textheight}{2.4in}
+\textwidth=18cm
+\usepackage{tabularx} % in the preamble
+\usepackage{titlesec}
+\usepackage{makecell}
+\usepackage[table]{xcolor}% http://ctan.org/pkg/xcolor
+
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{authblk}
+\usepackage{amsmath}
+\begin{document}
+
+\def\arraystretch{2.5}
+
+\section{Projects}
+\begin{center}
+
+\begin{tabularx}{\textwidth}{ |l|c|c|X|  }
+\hline
+Project Name & Status & Collaborators & Outstanding Item\\
+\hline
+Rat Exploration & Running & Blake Gerken &  \\
+\hline
+\end{tabularx}
+\end{center}
+\section{Data Log}
+\begin{center}
+\begin{tabularx}{\textwidth}{ |l|c|c|c|c|c|X| }
+\hline
+Rat Name & Version & Status & Behavior & TrackerData & SoundData & note\\
+\hline
+Hachi & ? & ? & Yes & Yes & Yes & \\
+\hline
+\end{tabularx}
+\end{center}
+\end{document}
+

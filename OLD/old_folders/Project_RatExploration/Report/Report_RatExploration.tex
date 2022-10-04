@@ -1,0 +1,52 @@
+\documentclass{article}
+\addtolength{\oddsidemargin}{-.875in}
+\addtolength{\evensidemargin}{-.875in}
+\addtolength{\textwidth}{1.75in}
+
+\addtolength{\topmargin}{-.875in}
+\addtolength{\textheight}{1.75in}
+	
+\usepackage{titlesec}
+\usepackage{amsmath}
+
+\title{Rat Exploration}
+\author{Siyu Wang}
+\date{ }
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{authblk}
+\usepackage{amsmath}
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Optimal Strategy}
+\subsection{Discrete reward (two feeders always have different rewards)}
+Suppose all possible rewards are $r_1 < r_2 < \cdots <  r_n$. Let $r_a$ be the exploit reward $R_{exploit} = r_a$. For the explore reward, $r_i$ has probability $p_i$ to occur for $i\neq a$ and $r_a$ has probability $p_a = 0$ to occur.
+
+When the horizon is $H$, if to exploit, the expected reward is $$EV(exploit) = r_a \cdot H,$$ if to explore, the expected value is 
+\begin{align} \label{eq1}
+EV(explore) & = \sum_{i = a+1}^{n} p_i \cdot r_i \cdot H + \sum_{i = 1}^{a-1} p_i \cdot (r_i + (H-1) \cdot r_a) \\ \label{eq2}
+\Delta EV & = EV(explore) - EV(exploit)\\ \label{eq3}
+& = \sum_{i = a+1}^{n} p_i \cdot (r_i - r_a) \cdot H + \sum_{i = 1}^{a-1}{p_i \cdot (r_i - r_a)}
+\end{align}
+
+$\Delta EV$ decreases as a function of a, see (\ref{eq3}). Numerically, we can solve for a fixed list of $r_i$ and $p_i$ the optimal stopping threshold $\theta_H$.
+
+\section{Notes}
+\begin{enumerate}
+	\item 80\% of 5 drops vs 80\% of 2 drops
+	\item always have X and X+ or - 2 drops, instead a random draw from 0,1,2,3,5
+	\item add penalty if the rat runs to a no-light feeder
+	\item 
+\end{enumerate}
+
+
+\end{document}
+
